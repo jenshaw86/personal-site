@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 
 const FaqPage = () => (
   <Layout>
-    <h1>This is my FAQ</h1>
+    <h1>FAQ</h1>
   </Layout>
 )
 

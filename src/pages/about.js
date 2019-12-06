@@ -20,8 +20,6 @@ const AboutPage = () => (
     <p>Oh. You need a little dummy text for your mockup? How quaint.</p>
 
     <p>I bet you’re still using Bootstrap too…</p>
-
-
   </Layout>
 )
 
