@@ -2,7 +2,7 @@ import React from "react"
 import Layout from '../components/layout/layout'
 
 const BlogPage = () => (
-  <Layout>
+  <Layout left='about' right='portfolio'>
     <h1>Blog</h1>
 
     <p>Check out my blog at dev.to!</p>

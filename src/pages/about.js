@@ -2,7 +2,7 @@ import React from "react"
 import Layout from '../components/layout/layout'
 
 const AboutPage = () => (
-  <Layout>
+  <Layout left='/' right='blog'>
     <h1>About Me</h1>
     <p>I'm a full-stack software engineer. I work primarily with Javascript, React, and Ruby on Rails.</p>
 
