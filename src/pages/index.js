@@ -1,10 +1,18 @@
 import React from "react"
-import {Link} from 'gatsby'
 import Layout from '../components/layout/layout'
-import {Button, Icon} from 'semantic-ui-react'
+import NavButton from '../components/navigation/navButton'
 
 const IndexPage = () => (
   <Layout>
+    <NavButton dir='left' page='contact'/>
+    {/* <Link to='contact'>
+      <Button animated>
+        <Button.Content visible>
+          <Icon name='arrow left' />
+        </Button.Content>
+        <Button.Content hidden>Contact</Button.Content>
+      </Button>
+    </Link> */}
     <h1>Jenny Shaw</h1>
     <p>Full-Stack Web Developer</p>
     <ul>
@@ -12,14 +20,7 @@ const IndexPage = () => (
       <li>GitHub</li>
       <li>Twitter</li>
     </ul>
-    <Link to='about'>
-      <Button animated>
-        <Button.Content visible>
-          <Icon name='arrow right' />
-        </Button.Content>
-        <Button.Content hidden>About</Button.Content>
-      </Button>
-    </Link>
+    <NavButton dir='right' page='about'/>
   </Layout>
 )
 
