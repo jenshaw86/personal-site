@@ -1,20 +1,24 @@
 // footer contains social media links and copyright
-import React from 'react'
+import React from 'react';
+// import IconButton from '../iconButton';
 
-const Footer = () => {
-  return (
-    <div>
-      <ul style={{liststyle: 'none'}}>
-        <a href="https://twitter.com/bloojs">Twitter</a>
-        <a href="https://dev.to/jenshaw">Dev.To</a>
-        <a href="https://dev.to/jenshaw">Dev.To</a>
-        <a href="https://www.instagram.com/thedesolatebeauty/">Instagram</a>
-        <a href="https://www.linkedin.com/in/jenny-h-shaw/">LinkedIn</a>
-        <a href="https://github.com/jenshaw86">GitHub</a>
-        <a href="mailto: jenshaw521@gmail.com">Email</a>
-      </ul>
-    </div>
-  )
-}
+// const site = {
+//   twitter: 'https://twitter.com/bloojs',
+//   // devto: 'https://dev.to/jenshaw',
+//   instagram: 'https://www.instagram.com/thedesolatebeauty/',
+//   linkedin: 'https://www.linkedin.com/in/jenny-h-shaw/',
+//   github: 'https://github.com/jenshaw86',
+//   email: 'mailto: jenshaw521@gmail.com'
+// }
+
+const Footer = () => (
+  <>
+    {/* <IconButton icon='twitter' url={site.twitter} />
+    <IconButton icon='instagram' url={site.instagram} />
+    <IconButton icon='linkedin' url={site.linkedin} />
+    <IconButton icon='github' url={site.github} />
+    <IconButton icon='envelope' url={site.email} /> */}
+  </>
+)
 
 export default Footer;

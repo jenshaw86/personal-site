@@ -3,7 +3,7 @@ import Header from './header'
 import Footer from './footer'
 import NavArrows from '../navigation/navArrows'
 
-const Layout = (props) => {
+const Layout = props => {
   return (
     <div>
       <Header />
